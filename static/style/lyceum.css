@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Budmo";
+    src: url("../style/budmo_1.ttf");
+
+}
+@font-face {
+	font-family: "quick";
+	src: url("../style/Quicksand.otf");
+}
+@font-face {
+    font-family: "Budmo2";
+    src: url("../style/budmo_2.ttf");
+
+}
+h1 {
+	font-family: "Budmo";
+	font-size: 110px;
+	color: black;
+	padding-left: 30px;
+	padding-top: 1px;
+  position: relative;
+  overflow: hidden;
+	
+}
+
+ul li {
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'quick';
+	padding: 20px;
+  margin-right: 20px;
+
+	
+	
+  }
+
+  p {
+  	font-size: 18px;
+  }
+
+body {
+  	font-family: "quick";
+  }
+h2 {font-family: "Budmo2";
+    font-size: 70px;
+ }
+
+a {text-decoration: none;
+	color: #660000;
+	font-weight: bolder;
+  font-size: 20px;
+
+  
+	
+	}
+
+header {
+	
+	height: 200px;
+	text-align: left;
+	padding: 0.1px;
+
+
+	background-color: #E0E0E0;
+	
+}
+
+h3 {
+	font-weight: bolder;
+}
+
+
+
+
+ 
+ .topcorner{
+   position:absolute;
+   top:0;
+   right:0;
+  }
+
+.wrap {
+    width: 100%;
+   margin: 0 auto;
+    width: 1500px;
+    height: auto;
+   
+   
+}
+  .picfix {
+    float: left;
+    position: relative;
+    width: 45%;
+    padding-top: 40px;
+    border: solid white;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+    
+    
+  }
+
+  .what {
+    float: left;
+    width: 45%;
+    display: block;
+    position: relative;
+    padding-left: 15px;
+    border: solid white;
+    padding-top: 15px;
+    
+    
+  }
+
+  .about {
+    float: left;
+    width: 45%;
+    display: block;
+    border: solid white;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    position: relative;
+    overflow: hidden;
+    min-height: 180px;
+
+    
+  }
+
+
+
+  .twitter {
+    width: 45%;
+    float: left;
+    display: block;
+    overflow: hidden;
+    border: solid white;
+    
+    padding: 20px;
+    position: relative;
+    
+  }
+    .google {
+    float: left;
+    position: relative;
+    width: 45%;
+    padding: 20px;
+    border: solid white;
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+
+
+
+  h1 { font-size: 60px;
+        margin-top: 70px;}
+
+  h2 {
+ 
+    font-size: 90px;
+}
+
+
+header { 
+        max-width: 100%;
+         background-color: #E0E0E0;}
+
+}
+
+

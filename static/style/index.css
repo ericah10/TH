@@ -1,0 +1,113 @@
+
+@font-face {
+    font-family: "quick";
+    src: url("../style/Quicksand.otf");
+  }
+
+
+@font-face {
+    font-family: "Budmo";
+    src: url("../style/budmo_1.ttf");
+}
+header {
+  position: center fixed;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+h1 {
+	margin-top: 100px;
+	color: #CDD8D8;
+	text-align: center;
+	font-size: 150px;
+	font-family: 'Budmo';
+
+  text-shadow: 6px 6px 10px #000000;
+ }
+body{
+ 	text-align:center;
+ 	background-size: cover;
+background-image: url("../images/RedCurtain.jpg");
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+letter-spacing: 5px;
+max-width: 100%;
+min-height: 100%;
+}
+
+
+ a { color: inherit;
+  text-shadow: 3px 3px 4px #000000;
+
+	}
+
+p {
+  font-size: 25px;
+	font-family: 'quick';
+	color: white;
+  text-shadow: 3px 3px 4px #000000;
+  
+}
+
+ul li {
+display: inline;
+
+margin: 30px;
+}
+
+
+.myButton {
+  -moz-box-shadow: 4px 5px 7px 0px black;
+  -webkit-box-shadow: 4px 5px 7px 0px black;
+  box-shadow: 5px 7px 10px 0px black;
+  background-color:transparent;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:2px solid white;
+  display:inline-block;
+  cursor:pointer;
+  color: white;
+  font-family: 'quick';
+  font-size:27px;
+  padding:20px 64px;
+  text-decoration:none;
+  text-shadow:0px 0px 0px #040504;
+  letter-spacing: 5px,
+
+
+}
+.myButton:hover {
+  background-color: black;
+}
+.myButton:active {
+  position:relative;
+  top:2px;
+}
+
+img {
+  box-shadow: 4px 5px 7px 0px black;
+  border-radius: 50px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+  
+h1 { font-size: 80px;}
+ul li { margin: 5px;
+        display: inline-block fixed;}
+img { display: inline-block;
+      max-width: 100%;
+      max-height: 100%;}
+
+body { background-size: cover fixed;}
+
+
+
+}
